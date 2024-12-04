@@ -9,6 +9,8 @@ for line in input:
     list1.append(int(item1))
     list2.append(int(item2))
 
+input.close()
+
 occurenceCount = {}
 
 for i in list2:
