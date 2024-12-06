@@ -27,8 +27,6 @@ def checkIfSafe(report):
 
 
 safeReports = 0
-print(reports[1])
-print(reports[1][:0] + reports[1][0+1:])
 for report in reports:
     safetyReturn = checkIfSafe(report)
     if type(safetyReturn) is bool:
