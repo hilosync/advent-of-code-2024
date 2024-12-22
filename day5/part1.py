@@ -18,7 +18,6 @@ with open("input.txt") as input:
             manuals.append(list(line.removesuffix('\n').split(",")))
 
 result = 0
-# print(rulesDict)
 for manual in manuals:
     beforeSet = set()
     middlePage = int(manual[len(manual)//2])
