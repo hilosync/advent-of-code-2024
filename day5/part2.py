@@ -28,8 +28,6 @@ for manual in manuals:
                     incorrectRules = True
                     temp = manual.pop(index)
                     manual = manual[:i] + [temp] + manual[i:]
-                    print(manual, len(manual), index)
-
                     break
         index += 1
 
@@ -37,4 +35,3 @@ for manual in manuals:
     result += middlePage if incorrectRules else 0
 
 print(result)
-print(rulesDict["54"])
